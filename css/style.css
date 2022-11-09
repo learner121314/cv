@@ -1,0 +1,289 @@
+body {
+    background-color: #E6F6F6;
+    margin: 0;
+}
+
+.h11 {
+    display: inline-block;
+    align-items: center;
+}
+
+.h12 {
+    position: absolute;
+    right: 20px;
+    padding: 40px;
+    text-align: center;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.home,
+.about,
+.contact {
+    display: inline-block;
+    margin: 15px;
+}
+
+.pici {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    width: 140px;
+    left: 60px;
+}
+
+.header2 {
+    width: 50%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    padding: 50px;
+    top: 20%;
+    left: 20%;
+}
+
+.pa {
+    position: absolute;
+    color: #66BFBF;
+    text-decoration: underline;
+    font-family: 'Mochiy Pop One', sans-serif;
+    align-items: center;
+    left: 40%;
+    bottom: 26%;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 460%;
+    padding-bottom: 20px;
+    font-family: 'Sacramento', cursive;
+}
+
+.mountain {
+    width: 50%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    left: 28%;
+    align-items: center;
+}
+
+.cloud1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.cloud2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.contactt {
+    align-items: center;
+    font-weight: 300;
+    font-size: medium;
+}
+
+.contactt .contacttext {
+    width: 40%;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+.contactt .contacttext h2 {
+    text-align: center;
+    color: aqua;
+}
+
+.contactt .contacttext .pa1 {
+    display: absolute;
+    text-align: center;
+    color: aqua
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+}
+
+.conatactinfo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 40%;
+}
+
+.contactform {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    color: aqua
+}
+
+
+.box {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+
+.box .icon {
+    background: #b0e397;
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+    font-size: 20px;
+    margin-top: 15px;
+
+
+}
+
+.box .text {
+    color: aqua;
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.box .text p {
+    font-weight: 700;
+}
+
+.btn {
+    background-color: #fff;
+    color: #000;
+    margin: 20px 0;
+
+}
+
+.btn:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+.form12 h2 {
+    padding: 10px;
+    background-color: rgb(12, 4, 4);
+    color: #53fec2
+}
+
+.aboutcontainer {
+    align-items: center;
+    font-weight: 300;
+    font-size: large;
+}
+
+.aboutcontainer .technical {
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutcontainer .technical .skills-set {
+    position: relative;
+    left: 160px;
+    width: 40%;
+    color: #fff;
+    border: #53fec2 solid 2px;
+    text-align: center;
+    padding: 0 0 5px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.aboutcontainer .technical .skills-set table {
+    position: relative;
+    margin: 0px auto;
+}
+
+.aboutcontainer .technical .projects {
+    width: 88%;
+    color: #fff;
+    border: #53fec2 solid 2px;
+    margin: 0;
+    position: relative;
+    left: 20px;
+
+}
+
+.projects h3 {
+    text-align: center;
+}
+
+.projects .ulbox {
+    border: #66BFBF solid 1px;
+}
+
+.ulbox li {
+    margin: 5px;
+}
+
+
+.non-technical {
+    position: absolute;
+    display: flex;
+    width: 45%;
+    right: 0px;
+    flex-direction: column;
+    margin-right:30px;
+}
+
+.non-technical .education {
+    color: #fff;
+    border: blueviolet solid 2px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.non-technical .hobbies {
+    padding: 10px;
+    color: #fff;
+    border: coral solid 2px;
+    text-align: center;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.non-technical .hackerrank {
+    padding: 10px;
+    color: #fff;
+    border: chartreuse solid 2px;
+    margin: 5px;
+    text-align: center;
+    margin-left: 0;
+}
+
+.languages {
+    color: #fff;
+    border: aqua solid 2px;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 110px;
+    MARGIN-TOP: 10PX;
+}
+
+.languages li {
+    list-style: none;
+}
