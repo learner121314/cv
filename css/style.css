@@ -1,289 +1,96 @@
-body {
-    background-color: #E6F6F6;
-    margin: 0;
-}
-
-.h11 {
-    display: inline-block;
-    align-items: center;
-}
-
-.h12 {
-    position: absolute;
-    right: 20px;
-    padding: 40px;
-    text-align: center;
-    display: inline-block;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-.home,
-.about,
-.contact {
-    display: inline-block;
-    margin: 15px;
-}
-
-.pici {
-    display: inline-block;
-    position: absolute;
-    top: 40px;
-    width: 140px;
-    left: 60px;
-}
-
-.header2 {
-    width: 50%;
-    display: block;
-    position: absolute;
-    text-align: center;
-    padding: 50px;
-    top: 20%;
-    left: 20%;
-}
-
-.pa {
-    position: absolute;
-    color: #66BFBF;
-    text-decoration: underline;
-    font-family: 'Mochiy Pop One', sans-serif;
-    align-items: center;
-    left: 40%;
-    bottom: 26%;
-}
-
-h1 {
-    color: #66BFBF;
-    font-size: 460%;
-    padding-bottom: 20px;
-    font-family: 'Sacramento', cursive;
-}
-
-.mountain {
-    width: 50%;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 0;
-    left: 28%;
-    align-items: center;
-}
-
-.cloud1 {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.cloud2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.contactt {
-    align-items: center;
-    font-weight: 300;
-    font-size: medium;
-}
-
-.contactt .contacttext {
-    width: 40%;
-    padding: 10px 20px;
-    margin: 0 auto;
-}
-
-.contactt .contacttext h2 {
-    text-align: center;
-    color: aqua;
-}
-
-.contactt .contacttext .pa1 {
-    display: absolute;
-    text-align: center;
-    color: aqua
-}
-
-.container {
-    position: relative;
-    width: 80%;
-    margin: 10px auto;
-    display: flex;
-}
-
-.conatactinfo {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    width: 40%;
-}
-
-.contactform {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 40%;
-    color: aqua
-}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ABOUT ME</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="favicon.ico?v=2">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"> 
+    </head>
+    
+<BODY style="background:url(/bg.jpg);background-size:cover;opacity:100;">
+    <div class="aboutcontainer">
+        <div class="technical">
+            <div class="skills-set">
+                <h3>SKILLS</h3>
+                <table>
+                    <tr>
+                        <td>C++</td>
+                        <td style="width: 161.867px;">⭐⭐⭐⭐</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>JAVA</td>
+                        <td style="width: 161.867px;">⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td style="width: 161.867px;">⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="projects">
+                <h3 style="margin-top: 10.06px;margin-bottom: 10.06px;">PROJECTS</h3>
+                <ul class="ulbox">
+                    <h4>👉USER PERMISSION BASED SECURED ATM MACHINE USING IOT</h4>
+                    <li>The system of ATM is more secured by adding RFID
+                        check, Biometric check and Facial recognition.</li>
+                    <li>Authorized users can do secure payments.</li>
+                    <li>Tech Stack used : RFID, Raspberry Pi, PI camera</li>
+                </ul>
+                <ul class="ulbox">
+                    <h4>👉API BASED WEATHER APPLICATION</h4>
+                    <li> Displays the current weather condition of a particular location</li>
+                    <li> This uses the OpenWeather API for the dynamic weather reports</li>
+                    <li>Tech Stack used : HTML, CSS, Javascript, Bootstrap</li>
+                </ul>
+                
+            </div>
+            <div class="languages">
+                <h3 style="margin-top: 10.06px;margin-bottom: 10.06px;">LANGUAGES KNOWN</h3>
+                <ul>
+                    <li style="width: 263.8px;padding-top: 0px;">Telugu</li>
+                    <li style="width: 263.8px;padding-top: 0px;">English</li>
+                    
+                </ul>
+            </div>
+        </div>
 
 
-.box {
-    position: relative;
-    width: 50%;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-}
 
-.box .icon {
-    background: #b0e397;
-    min-width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 40%;
-    font-size: 20px;
-    margin-top: 15px;
-
-
-}
-
-.box .text {
-    color: aqua;
-    display: flex;
-    margin-left: 20px;
-    flex-direction: column;
-    font-weight: 300;
-}
-
-.box .text p {
-    font-weight: 700;
-}
-
-.btn {
-    background-color: #fff;
-    color: #000;
-    margin: 20px 0;
-
-}
-
-.btn:hover {
-    background-color: #111;
-    color: #fff;
-}
-
-.form12 h2 {
-    padding: 10px;
-    background-color: rgb(12, 4, 4);
-    color: #53fec2
-}
-
-.aboutcontainer {
-    align-items: center;
-    font-weight: 300;
-    font-size: large;
-}
-
-.aboutcontainer .technical {
-    width: 50%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-}
-
-.aboutcontainer .technical .skills-set {
-    position: relative;
-    left: 160px;
-    width: 40%;
-    color: #fff;
-    border: #53fec2 solid 2px;
-    text-align: center;
-    padding: 0 0 5px 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
-.aboutcontainer .technical .skills-set table {
-    position: relative;
-    margin: 0px auto;
-}
-
-.aboutcontainer .technical .projects {
-    width: 88%;
-    color: #fff;
-    border: #53fec2 solid 2px;
-    margin: 0;
-    position: relative;
-    left: 20px;
-
-}
-
-.projects h3 {
-    text-align: center;
-}
-
-.projects .ulbox {
-    border: #66BFBF solid 1px;
-}
-
-.ulbox li {
-    margin: 5px;
-}
-
-
-.non-technical {
-    position: absolute;
-    display: flex;
-    width: 45%;
-    right: 0px;
-    flex-direction: column;
-    margin-right:30px;
-}
-
-.non-technical .education {
-    color: #fff;
-    border: blueviolet solid 2px;
-    text-align: center;
-    margin: 20px;
-    margin-left: 0;
-}
-
-.non-technical .hobbies {
-    padding: 10px;
-    color: #fff;
-    border: coral solid 2px;
-    text-align: center;
-    margin: 5px;
-    margin-left: 0;
-}
-
-.non-technical .hackerrank {
-    padding: 10px;
-    color: #fff;
-    border: chartreuse solid 2px;
-    margin: 5px;
-    text-align: center;
-    margin-left: 0;
-}
-
-.languages {
-    color: #fff;
-    border: aqua solid 2px;
-    width: 50%;
-    text-align: center;
-    position: relative;
-    left: 110px;
-    MARGIN-TOP: 10PX;
-}
-
-.languages li {
-    list-style: none;
-}
+        <div class="non-technical">
+            <div class="education">
+                <h3>EDUACTION</h3>
+                <ul>
+                    <h4>BIHER, Chennai — B.Tech Electronics and
+                    communication Engineering</h4>
+                    <li>JULY 2018 - MAY 2022 CGPA – 9.0</li>
+                    <h4>Sri Chaitanya Junior college - 12th</h4>
+                    <li>12th - APRIL 2017 - APRIL 2018 - 96%</li>
+                    <h4>Bhashyam High school,Chirala - 10th</h4>
+                    <li>10th - APRIL 2015 - APRIL 2016 CGPA – 10</li>
+                </ul>
+            </div>
+            <div class="hobbies">
+                <ul>
+                    <h3>INTERESTS/HOBBIES</h3>
+                    <li>Engaging in creative ideas</li>
+                    <li>Listening to music and Movie Lover</li>
+                    <li>Learning New Tech Info/News</li>
+                </ul>
+            </div>
+            <div class="hackerrank">
+                <ul>
+                    <h3>COMEPETETIVE PROGRAMMING</h3>
+                    <li>Handle- sunnapujalaiah07</li>
+                    <li>Problems solved : 180+</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</BODY>
+</html>
